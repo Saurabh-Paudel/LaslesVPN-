@@ -1,0 +1,663 @@
+* {
+  font-family: rubik;
+}
+/* navabar css starts here */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-item li {
+  margin: 0 25px;
+  color: #444444;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.signup-container {
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+}
+
+.signup-container label {
+  margin-right: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  color: #0b132a;
+}
+
+.signup-container button.signup {
+  color: #f53855;
+  font-size: 16px;
+  background-color: white;
+  border: 2px solid #f53855;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: 500;
+}
+/* navabar css ends here */
+
+/* banner css starts here */
+.banner .banner-text {
+  margin-left: 100px;
+  margin-top: 100px; /* #F53855uced margin-top value */
+  font-size: 50px;
+  line-height: 1.8;
+  font-weight: bold;
+}
+
+.banner .banner-text b {
+  font-weight: 900;
+  font-size: larger;
+}
+
+.banner .banner-subtext {
+  margin-left: 100px;
+  line-height: 1.8;
+  color: #4f5665;
+}
+
+.banner .get-started {
+  margin-left: 100px;
+  margin-top: 25px;
+  background-color: #f54747;
+  color: #fff;
+  border-radius: 15px;
+  border: none; /* Remove border */
+  outline: none; /* Remove outline */
+  height: 60px;
+  width: 250px;
+  font-size: 16px;
+  box-shadow: 5px 10px 18px #f53838;
+  cursor: pointer;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Adjust spacing between elements */
+}
+
+.content {
+  flex: 1; /* Let the content take up remaining space */
+}
+
+.banner-image {
+  width: 700px; /* Adjust image width as needed */
+  height: 400px; /* Maintain aspect ratio */
+  border-radius: 5px;
+  padding-top: 100px;
+  margin-right: 100px;
+}
+/* navabar css ends here */
+
+/* info status css starts here */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1250px;
+  height: 200px;
+  border-radius: 25px;
+  margin-top: 150px;
+  margin-left: 100px;
+  box-shadow: 0 8px 6px -6px rgb(189, 189, 189);
+}
+
+.item-container {
+  display: flex;
+  align-items: center;
+  padding: 60px 90px 60px 90px;
+}
+
+.item-container img {
+  width: 60px;
+  height: 60px;
+  padding-right: 20px;
+}
+
+.text-container {
+  text-align: left;
+  padding-left: 8%;
+  padding-right: 100px;
+  color: #0b132a;
+}
+
+.text-container p:first-child {
+  font-size: 25px;
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+
+.text-container p:last-child {
+  color: #4f5665;
+}
+
+.vl {
+  border-left: 2px solid #bfbfc0;
+  height: 100px;
+  margin: 0 20px;
+}
+/* info status css ends here */
+
+/* feature provided list starts here */
+.feature-container {
+  display: flex;
+}
+
+.feature-container .feature-image {
+  height: 400px;
+  width: 500px;
+  padding-top: 100px;
+  padding-left: 200px;
+}
+
+p {
+  margin: 0;
+}
+
+.feature-container .feature-text {
+  font-size: 35px;
+  font-weight: bolder;
+  text-align: left;
+  padding-top: 160px;
+  padding-left: 180px;
+}
+
+.feature-container .feature-subtext {
+  color: #4f5665;
+  padding-top: 15px;
+  padding-left: 180px;
+  line-height: 1.8;
+}
+
+.feature-container .feature-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.feature-container .feature-list li {
+  display: flex;
+  align-items: center;
+  color: #4f5665;
+  padding-top: 11px;
+  padding-bottom: 10px;
+  margin-right: 20px;
+  padding-left: 140px;
+}
+
+.feature-container.feature-list img {
+  width: 10px;
+  height: 10px;
+  vertical-align: middle;
+}
+/* feature provided list ends here */
+
+.mid-section {
+  background-color: #f6f6f6;
+  margin-top: 100px;
+  height: 3150px;
+}
+/* plan packages starts here */
+.mid-section .mid-section-header {
+  font-size: 35px;
+  font-weight: bold;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.mid-section .mid-section-subheader {
+  text-align: center;
+  color: #4f5665;
+  padding-top: 25px;
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+.plan {
+  display: flex;
+}
+
+.mid-section .plan-box {
+  position: relative; /* Make sure the parent container is positioned */
+  height: 760px;
+  width: 330px;
+  background-color: #fff;
+  margin-top: 4%;
+  margin-left: 8%;
+  border-radius: 10px;
+  border: 2.5px solid #dddddd;
+}
+
+.mid-section .plan-box .plan-image {
+  padding-top: 100px;
+  padding-left: 90px;
+}
+
+.mid-section .plan-box .plan-type {
+  font-weight: bolder;
+  font-size: 25px;
+  padding-top: 45px;
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+}
+
+.mid-section .plan-box .plan-item-list li {
+  display: flex;
+  align-items: center;
+  color: #4f5665;
+  padding-top: 11px;
+}
+
+.mid-section .plan-box .plan-item-list img {
+  margin-right: 15px;
+  margin-left: 10px;
+}
+
+.mid-section .plan-box .checkout {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 20px; /* 20px from the bottom */
+  display: flex;
+  flex-direction: column; /* Arrange items vertically */
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.mid-section .plan-box .checkout .plan-price-free,
+.plan-price-standard,
+.plan-price-premium {
+  margin-bottom: 10px; /* Add some space between price and button */
+}
+
+.mid-section .plan-box .checkout .purchase-button button {
+  color: #f53855;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: white;
+  border: 2px solid #f53855;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin-top: 25px;
+  cursor: pointer;
+  width: 180px;
+}
+
+.mid-section .plan-box .checkout .duration-text {
+  color: #4f5665;
+  font-weight: 100;
+}
+/* plan packages ends here */
+
+/* global network strarts here  */
+
+.globe .globe-text {
+  font-size: 35px;
+  font-weight: bold;
+  padding-top: 120px;
+  text-align: center;
+}
+
+.globe .globe-subtext {
+  text-align: center;
+  color: #4f5665;
+  padding-top: 25px;
+  line-height: 1.8;
+  font-size: 16px;
+}
+.globe .globe-subtext .bold {
+  font-weight: 600;
+}
+
+.globe .globe-img img {
+  height: 535px;
+  width: 1060px;
+  display: block;
+  padding-top: 150px;
+  margin-left: auto;
+  margin-right: auto; /* Centers the image vertically */
+}
+/* global network ends here  */
+
+/* Sponse#F53855 app list starts*/
+.app-list ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding-top: 88px;
+}
+.app-list ul li {
+  margin-right: 50px;
+}
+.app-list ul li img {
+  height: 60px;
+  width: 180px;
+}
+/* Sponse#F53855 app list ends*/
+
+/* testimonial card slider starts */
+.slideshow-container {
+  white-space: nowrap; /* Prevents slides from wrapping */
+}
+
+.slideshow-container .slideshow-text {
+  font-size: 35px;
+  font-weight: bold;
+  padding-top: 120px;
+  text-align: center;
+}
+.slideshow-container .slideshow-subtext {
+  text-align: center;
+  color: #4f5665;
+  padding-top: 25px;
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+.mySlides {
+  display: flex; /* Display slides in a line */
+  white-space: normal; /* Allow text to wrap within slides */
+  margin-left: 100px;
+  padding-top: 60px;
+}
+
+.review-card {
+  background-color: white;
+  border-radius: 8px;
+  border: 2px solid #f53855;
+  padding: 30px;
+  box-sizing: border-box;
+  line-height: 1.5;
+  display: inline-block; /* Display as inline-block to fit content */
+  width: 400px; /* Ensure it doesn't exceed the available width */
+  margin-right: 80px;
+  color: #0b132a;
+}
+
+.profile-image img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  float: left; /* Make the image float left */
+  margin-right: 10px; /* Add margin between image and text */
+}
+
+.user-info {
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+.info-container {
+  flex: 1; /* Take remaining space */
+}
+
+.info-container h4 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.info-container .location {
+  margin: 0;
+  font-size: 14px;
+  color: #777;
+  margin-top: 5px; /* Add margin for better spacing */
+}
+
+.rating {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  font-size: 16px;
+  margin-left: 10px; /* Add margin between user info and rating */
+  color: #0b132a;
+}
+
+.rating span {
+  margin-right: 5px; /* Add margin between rating value and star icon */
+}
+
+.rating img {
+  width: 16px;
+  height: 16px;
+}
+
+.review-text p {
+  font-size: 16px;
+  line-height: 2;
+  color: #0b132a;
+  margin: 10px 0 0;
+}
+
+.slide-action {
+  display: flex;
+  justify-content: space-between; /* Ensures space between slide-dots and arrow-buttons */
+  align-items: center; /* Aligns items vertically cente#F53855 */
+  width: 100%;
+  margin-top: 82.5px; /* Adjusts top margin for both components */
+}
+
+.slide-dots {
+  display: flex;
+  gap: 15px;
+  margin-left: 100px; /* Adds a bit of left margin */
+}
+
+.dot1,
+.dot2,
+.dot3,
+.dot4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15px;
+}
+.dot1 {
+  background-color: #f53838;
+  width: 45px;
+  border-radius: 25px;
+}
+.dot2,
+.dot3,
+.dot4 {
+  background-color: #dde0e4;
+  width: 15px;
+  border-radius: 50%;
+}
+.arrow-button {
+  display: flex;
+  gap: 20px;
+  margin-right: 250px; /* Adds a bit of right margin */
+}
+
+.prev,
+.next {
+  display: flex; /* Display elements inline */
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #f53838;
+  color: #f53838;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: #f53838;
+  color: #fff;
+}
+/* testimonial card slider ends */
+
+/* subscribe box style */
+.subscribe-box {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 233px;
+  width: 1200px;
+  margin-top: 87.52px;
+  border: 2px solid #dedede;
+  border-radius: 25px;
+  background-color: #fff;
+  z-index: 10;
+}
+
+.subscribe-text {
+  display: flex;
+  flex-direction: column;
+  padding: 58.72px 0px 58.72px 70px;
+}
+
+.subscribe-main-text {
+  /* Specify the font family */
+  font-size: 35px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.subscribe-subtext {
+  font-size: 16px;
+  color: #666;
+  padding-top: 20px;
+}
+
+.subscribe-button {
+  padding: 86.5px 70px 86.5px 0px;
+}
+
+.subscribe-button button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f53838;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  height: 60px;
+  width: 250px;
+}
+
+/* footer style */
+footer {
+  width: 100%;
+  height: 563.12px;
+  background-color: rgba(157, 157, 157, 0.2);
+}
+
+.footer-content {
+  display: flex;
+  padding-top: 10%; /* Apply margin to the content container */
+}
+
+.footer-left {
+  padding-left: 150px;
+  padding-top: 63.5px;
+}
+
+.footer-logo img {
+  height: 36.23px;
+  width: 148px;
+}
+
+.footer-text p {
+  color: #4f5665;
+  padding-top: 20px;
+  font-size: 16px;
+}
+.footer-text p .footer-bold {
+  font-weight: 600;
+}
+
+.social ul {
+  list-style-type: none;
+  padding: 0; /* Reset padding */
+  margin: 0; /* Reset margin */
+  padding-top: 30.42px;
+  display: flex; /* Ensure the icons are aligned horizontally */
+  gap: 20.4px; /* Add space between icons if needed */
+}
+
+.social ul li {
+  display: inline-block; /* Ensure list items are inline */
+}
+
+.social ul li img {
+  height: 34px;
+  width: 34px;
+  background-color: #f53838;
+  border-radius: 50%;
+  border: none;
+}
+.copyright {
+  color: #afb5c0;
+  font-size: 16px;
+  padding-top: 29.58px;
+}
+.copyright .copy-bold {
+  font-weight: 500;
+}
+
+.footer-right {
+  padding-top: 63.5px;
+  display: flex;
+  justify-content: flex-end; /* Align content to the right */
+  width: 60%;
+}
+
+.footer-right .footer-menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 126px;
+}
+
+.footer-right ul li {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-right h4 {
+  font-family: Rubik, sans-serif;
+  color: #000;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-right ul li ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-right ul li ul li {
+  font-family: Rubik, sans-serif;
+  color: #4f5665;
+  font-size: 16px;
+  padding-top: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
